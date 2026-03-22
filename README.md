@@ -1,8 +1,8 @@
 <div align="center">
 
-# SafeGuard Delivery
+# GigSaathi
 
-### AI-Powered Parametric Insurance for Gig Workers
+### AI-Powered Parametric Insurance for Gig Workers — Phase 1
 
 [![Phase](https://img.shields.io/badge/Phase-1%20Ideation-blue?style=for-the-badge)](https://github.com)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%2B%20Web-green?style=for-the-badge)](https://github.com)
@@ -14,6 +14,8 @@
 ---
 
 *Protecting gig workers' income from uncontrollable disruptions with fraud-proof, physics-based verification.*
+
+> **Phase 1 — Ideation & Foundation**
 
 </div>
 
@@ -39,7 +41,7 @@
 
 ## Executive Summary
 
-SafeGuard Delivery is an AI-powered parametric insurance platform designed exclusively for food delivery partners (Zomato, Swiggy). We protect their daily income from uncontrollable external disruptions — severe weather, unplanned curfews, and sudden market closures — that cause immediate loss of wages.
+GigSaathi is an AI-powered parametric insurance platform designed exclusively for food delivery partners (Zomato, Swiggy). We protect their daily income from uncontrollable external disruptions — severe weather, unplanned curfews, and sudden market closures — that cause immediate loss of wages.
 
 ### Market Opportunity
 
@@ -64,7 +66,7 @@ SafeGuard Delivery is an AI-powered parametric insurance platform designed exclu
 ### How We Compare
 
 ```
-Traditional Insurance          SafeGuard Delivery
+Traditional Insurance          GigSaathi
 ───────────────────            ─────────────────
  - Monthly premiums             - Weekly pricing
  - Manual claims                - Parametric auto-triggers
@@ -517,7 +519,7 @@ Output: Risk score (0-100) mapped to weekly premium multiplier
 
 ```
 +-----------------------------------------------------------------------------+
-|                         SAFEGUARD DELIVERY PLATFORM                         |
+|                           GIGSAATHI PLATFORM                                |
 +-----------------------------------------------------------------------------+
 |                                                                             |
 |  +-----------------------------+    +-------------------------------------+ |
@@ -592,35 +594,12 @@ Output: Risk score (0-100) mapped to weekly premium multiplier
 
 ---
 
-## Development Roadmap
-
-### Phase 1: Foundation (Weeks 1–2) — CURRENT
+## Development Roadmap — Phase 1: Foundation (Weeks 1–2)
 
 | Week | Focus | Deliverables |
 |:---:|:---|:---|
 | 1 | Research and Architecture | Persona definition, Tech stack selection, Fraud strategy |
 | 2 | MVP Planning | API design, Database schema, ML model prototyping |
-
-### Phase 2: Core Build (Weeks 3–4)
-
-| Week | Focus | Deliverables |
-|:---:|:---|:---|
-| 3 | Android Foundation | User registration, KYC upload, Policy purchase |
-| | Backend Core | User API, Policy API, PostgreSQL setup |
-| | ML Integration | Weather API integration, Basic premium model |
-| 4 | Android Telemetry | Sensor collection, Offline storage, Background service |
-| | Claim System | One-tap claim, Parametric triggers, Basic fraud checks |
-| | Admin Dashboard | Claim queue, User management |
-
-### Phase 3: Advanced Features (Weeks 5–6)
-
-| Week | Focus | Deliverables |
-|:---:|:---|:---|
-| 5 | Fraud Detection | Full telemetry pipeline, ML fraud scoring, WiFi/pressure validation |
-| | Graph Analytics | Neo4j setup, Fraud ring detection, Admin visualization |
-| | Payout System | Razorpay integration, Real-time payout processing |
-| 6 | Optimization | ML model tuning, Performance testing, Security audit |
-| | Final Polish | 5-min demo video, Pitch deck, Production deployment |
 
 ---
 
@@ -673,7 +652,7 @@ Output: Risk score (0-100) mapped to weekly premium multiplier
 
 ## Conclusion
 
-SafeGuard Delivery addresses a critical market gap with a technically deep, fraud-resistant architecture. The multi-layer defense — sensor fusion, behavioral analytics, and graph-based ring detection — makes large-scale spoofing attacks economically unviable.
+GigSaathi addresses a critical market gap with a technically deep, fraud-resistant architecture. The multi-layer defense — sensor fusion, behavioral analytics, and graph-based ring detection — makes large-scale spoofing attacks economically unviable.
 
 ### Differentiators
 
@@ -684,17 +663,6 @@ SafeGuard Delivery addresses a critical market gap with a technically deep, frau
 | 3 | Real-Time Detection | Fraud rings identified within 15 minutes, before mass payouts |
 | 4 | Scalable Architecture | Kafka + TimescaleDB + Neo4j handles millions of daily events |
 | 5 | Weekly Pricing | Aligns with gig workers' cash flow, drives adoption |
-
-### Next Steps
-
-1. Phase 1 Deliverables: README + 2-min Video
-2. Begin Android telemetry SDK development
-3. Set up PostgreSQL + TimescaleDB for telemetry storage
-4. Train initial fraud detection models on synthetic data
-5. Integrate weather API with parametric triggers
-6. Develop admin dashboard prototype
-
----
 
 ## Appendix
 
@@ -778,12 +746,6 @@ SELECT create_hypertable('telemetry', 'time');
 
 <div align="center">
 
-*"The syndicates are getting smarter. You have exactly 24 hours to prove you are smarter."*
 
-**Challenge Accepted.**
-
----
-
-**Team:** DevTrail GigSaathi | **Phase:** 1 — Ideation & Foundation | **Last Updated:** March 20, 2026
-
+**Team:** Team Console | **Phase:** 1 — Ideation & Foundation | 
 </div>
